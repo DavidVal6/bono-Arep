@@ -14,7 +14,7 @@ java -cp "target/classes:target/dependency/*" edu.eci.arep.SparkWebServer
 
 Una vez se ejecute o descargando el docker de la siguiente manera:
 ```
-docker pull davidval6/firstsparkrepo:latest
+[docker pull davidval6/firstsparkrepo:latestBono](https://hub.docker.com/repository/docker/davidval6/dockerbono/general)
 ```
 tiene una forma de ejecutarse y es : 
 aqui se vera el coseno de el numero
