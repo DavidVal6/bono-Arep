@@ -34,3 +34,8 @@ Aqui se vera la magnitud de un vector dandole x y y:
 localhost:4567/magnitude?x=1&y=2 
 ```
 PRUEBAS DE FUNCIONAMIENTO:
+![image](https://github.com/DavidVal6/bono-Arep/assets/98176834/2d81d7cc-001a-4b30-addf-9448c6722c70)
+![image](https://github.com/DavidVal6/bono-Arep/assets/98176834/0eb0ba9b-07ab-4aaf-a9c1-41784099acc1)
+![image](https://github.com/DavidVal6/bono-Arep/assets/98176834/b8c2dca6-a8cb-40ae-a277-c778e7f465e7)
+![image](https://github.com/DavidVal6/bono-Arep/assets/98176834/8bdd23c3-aea9-443f-bd96-c540f48f6b18)
+
