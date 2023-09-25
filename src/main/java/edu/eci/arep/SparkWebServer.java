@@ -1,16 +1,47 @@
 package edu.eci.arep;
+
 import static spark.Spark.*;
 
 public class SparkWebServer {
-    
-    public static void main(String... args){
+
+    public static void main(String... args) {
         port(getPort());
-        get("hello", (req,res) -> "Hello Docker!");
-        get("cos", (req,res) -> AppService.getCos(req.queryParams("number")));
-        get("sin", (req,res) -> AppService.getSin(req.queryParams("number")));
-        get("palindrom", (req,res) -> AppService.isPalindrome(req.queryParams("palindrome")));
-        get("magnitude", (req,res) -> AppService.getMagnitude(req.queryParams("x"),req.queryParams("y")));
-        //HTTPServer.getInstance().start(args);
+        get("/formulario", (req, res) -> {
+            String htmlForm = "<form action='/calcular' method='get'>" +
+                    "<label for='operacion'>Seleccione la operación:</label>" +
+                    "<select name='operacion'>" +
+                    "<option value='cos'>Coseno</option>" +
+                    "<option value='sin'>Seno</option>" +
+                    "<option value='palindrom'>Palíndromo</option>" +
+                    "<option value='magnitude'>Magnitud</option>" +
+                    "</select><br>" +
+                    "Número (o Palíndromo), X (si es magnitud): <input type='text' name='valor'><br>" +
+                    "Y (si es magnitud): <input type='text' name='valorY'><br>" +
+                    "<input type='submit' value='Calcular'>" +
+                    "</form>";
+            return htmlForm;
+        });
+        get("/calcular", (req, res) -> {
+            String operacion = req.queryParams("operacion");
+            String valor = req.queryParams("valor");
+
+            // Redirige a la ruta correspondiente según la operación seleccionada
+            switch (operacion) {
+                case "cos":
+                    return AppService.getCos(valor);
+                case "sin":
+                    return AppService.getSin(valor);
+                case "palindrom":
+                    return AppService.isPalindrome(valor);
+                case "magnitude":
+                    // Recupera los valores de "x" e "y" por separado
+                    String valorX = req.queryParams("valor");
+                    String valorY = req.queryParams("valorY");
+                    return AppService.getMagnitude(valorX, valorY);
+                default:
+                    return "Operación no válida";
+            }
+        });
     }
 
     private static int getPort() {
@@ -19,5 +50,4 @@ public class SparkWebServer {
         }
         return 4567;
     }
-    
 }

@@ -1,2 +1,4 @@
-edu\eci\arep\App.class
-edu\eci\arep\SparkWebServer.class
+edu/eci/arep/SparkWebServer.class
+edu/eci/arep/HTTPServer.class
+edu/eci/arep/AppService.class
+edu/eci/arep/ServerStr.class
