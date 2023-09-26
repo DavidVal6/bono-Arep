@@ -68,7 +68,9 @@ http://localhost:34001/formulario
 ```
 ## Pruebas de funcionamiento:
 ![image](https://github.com/DavidVal6/bono-Arep/assets/98176834/a85a21a5-f91e-4277-b924-58a888525c80)
+![image](https://github.com/DavidVal6/bono-Arep/assets/98176834/fb57f93d-b9b0-481d-bf9f-04c8e10270fa)
 ![image](https://github.com/DavidVal6/bono-Arep/assets/98176834/6a07fcde-c2bd-4b5d-9159-5fb44bbf1222)
+![image](https://github.com/DavidVal6/bono-Arep/assets/98176834/98bbee33-70f4-4fc2-91a3-81f26986f57f)
 ![image](https://github.com/DavidVal6/bono-Arep/assets/98176834/013d3319-8d59-4afc-965d-682997e90940)
 ![image](https://github.com/DavidVal6/bono-Arep/assets/98176834/f3bab3b3-f906-4515-b30d-e48f8946f2e6)
 ![image](https://github.com/DavidVal6/bono-Arep/assets/98176834/c9064637-d02d-4229-a85f-543b16bf8ea2)
