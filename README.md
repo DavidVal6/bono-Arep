@@ -8,7 +8,7 @@ Hecho por David Eduardo Valencia Cardona
 1. Asegúrate de tener Spark Java instalado en tu entorno de desarrollo.
 
 2. Antes que nada no olvide iniciar el maven con el comando `mvn:clean install`
-3. Ejecuta la clase `SparkWebServer` como una aplicación Java.
+3. Ejecuta la clase `SparkWebServer` como una aplicación Java. (Nota importante si esta en un sistema Unix(Linux,Mac) use "classes:target" en caso contrario cambie los ":" por un ";"
 
    ```shell
    java -cp "target/classes:target/dependency/*" edu.eci.arep.SparkWebServer
