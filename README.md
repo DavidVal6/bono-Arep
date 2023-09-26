@@ -3,8 +3,6 @@ Hecho por David Eduardo Valencia Cardona
 
 ## Clase SparkWebServer
 
-La clase `SparkWebServer` es una aplicación de servidor web desarrollada en Spark Java. Esta aplicación web proporciona un formulario para realizar diferentes operaciones matemáticas y de texto y luego muestra los resultados correspondientes. A continuación, se describe cómo ejecutar la aplicación y realizar pruebas.
-
 ### Ejecución
 
 1. Asegúrate de tener Spark Java instalado en tu entorno de desarrollo.
@@ -69,4 +67,20 @@ Esto iniciará el contenedor y expondrá la aplicación en el puerto 34001 de tu
 http://localhost:34001/formulario
 ```
 ## Pruebas de funcionamiento:
+![image](https://github.com/DavidVal6/bono-Arep/assets/98176834/a85a21a5-f91e-4277-b924-58a888525c80)
+![image](https://github.com/DavidVal6/bono-Arep/assets/98176834/6a07fcde-c2bd-4b5d-9159-5fb44bbf1222)
+![image](https://github.com/DavidVal6/bono-Arep/assets/98176834/013d3319-8d59-4afc-965d-682997e90940)
+![image](https://github.com/DavidVal6/bono-Arep/assets/98176834/f3bab3b3-f906-4515-b30d-e48f8946f2e6)
+![image](https://github.com/DavidVal6/bono-Arep/assets/98176834/c9064637-d02d-4229-a85f-543b16bf8ea2)
+![image](https://github.com/DavidVal6/bono-Arep/assets/98176834/5d4c6c34-0699-481b-8ba6-4b7d5d6a8414)
+![image](https://github.com/DavidVal6/bono-Arep/assets/98176834/f3b3aa33-7e01-42dd-b36b-cd67e6964b32)
+![image](https://github.com/DavidVal6/bono-Arep/assets/98176834/1ae4508b-4017-4b9d-95e8-c5ce239e36b3)
+![image](https://github.com/DavidVal6/bono-Arep/assets/98176834/74616218-b4f9-4897-b646-d27764dd00b3)
+
+
+
+
+
+
+
 
