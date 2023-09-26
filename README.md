@@ -1,6 +1,5 @@
 # Bono Parcial AREP y Laboratorio
 Hecho por David Eduardo Valencia Cardona
-A continuación, te proporcionaré un README desglosado para las clases proporcionadas y el Docker que mencionaste:
 
 ## Clase SparkWebServer
 
